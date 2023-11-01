@@ -296,7 +296,7 @@ border-radius: 10%;
 }
 .forth1{
     /* border: 1px solid red; */
-    background-color:blue;
+    background-color:#DFCCFB;
     height: 500px;
     width: 50%;
     margin-left: 60px;
@@ -306,7 +306,6 @@ border-radius: 10%;
     /* border: 1px solid rgb(14, 175, 52); */
     height: 400px;
     width: 50%;
-    /* background-color: #009999; */
     margin-left: 830px;
     margin-top: -500px;
 }
@@ -437,7 +436,7 @@ border-radius: 10%;
 .fiv{
     margin-top: 200px;
     height: 900px;
-    background-color: burlywood;
+    background-color:#FDF0F0;
     /* border: 1px solid red; */
     /* float: left; */
 }
@@ -494,15 +493,6 @@ border-radius: 10%;
     margin-left:1030px;
    
     margin-top: -550px;
-}
-.fiv1:hover{
-    transform: scale(0.8);
-}
-.fiv2:hover{
-    transform: scale(0.8);
-}
-.fiv3:hover{
-    transform: scale(0.8);
 }
 .fiv1 h5{
     margin-left: 100px;

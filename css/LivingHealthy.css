@@ -275,13 +275,13 @@
 }
 .text1{
     position: absolute;
-    margin-left: 10px;
-    top:28  0px;
+    margin-left: 20px;
+    top:320px;
 }
 .text{
     position: absolute;
     margin-left: 20px;
-    top: 310px;
+    top: 340px;
 }
 .more .col .h3{
     margin-top: -100px !important;

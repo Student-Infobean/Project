@@ -139,16 +139,14 @@
     display: inline-block;
     margin-top: 30px;
     color: #0077B6;
-    float: left;
     margin-left: 30px;
-    
     font-size: 2.2rem;
 }
 #emergency span{
     display: inline-block;
     margin-top: 30px;
     color: #0077B6;
-    float: left;
+    float:left;
     margin-left: 30px;
     
     font-size: 2.2rem;
@@ -162,7 +160,7 @@
     width: 30%;
     height: 350px;
     margin-top: 50px;
-   
+    box-shadow: 10px 10px 5px lightgray;
     float :left ;
     margin-left: 44px;
 }
