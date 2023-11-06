@@ -1,0 +1,39 @@
+<script>
+    function Calculator(n1,n2){
+        this.n1=n1;
+        this.n2=n2;
+
+        this.add= function(){
+            document.write("<br>Add="+(this.n1+this.n2));
+        }
+        this.sub=function(){
+            document.write("<br>Sub="+(this.n1-this.n2));
+        }
+        this.mul=function(){
+            document.write("<br>Mul="+(this.n1*this.n2));
+        }
+        this.div=function(){
+            document.write("<br>Div="+(this.n1/this.n2));
+        }
+    }
+    var n1=parseInt(window.prompt("enter n1"));
+    var n2=parseInt(window.prompt("enter n2"));
+    var ch=parseInt(window.prompt("Enter your choice 1. Add 2.sub 3.mul 4.div"));
+    var obj= new Calculator(n1,n2);
+
+    switch(ch){
+              case 1: 
+              obj.add();
+              break;
+              case 2:
+              obj.sub();
+              break;
+              case 3:
+              obj.mul();
+              break;
+              case 4:
+              obj.div();
+              break;
+    }
+
+</script>
